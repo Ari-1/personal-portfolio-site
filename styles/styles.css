@@ -1,0 +1,110 @@
+/* Entire page--------------------------- */
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(223, 169, 97);
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Cutive Mono', monospace;
+}
+
+/* Header block--------------------------- */
+#header {
+  background-image: url("../images/phone.jpg");
+  background-position: left;
+  height: 10vh;
+  border-bottom: 2px solid grey;
+  box-shadow: 0px 5px 10px 0px rgb(245, 227, 251);
+  position: relative;
+}
+
+#header ul {
+  display:flex;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5em;
+  color: rgb(87, 9, 32);
+  font-weight: bold;
+}
+
+#header ul li a:hover {
+  color: rgb(67, 43, 71);
+}
+
+/* Profile-------------- ----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dee's quick intro to profile-project */
+
+/* div with nav bar */
+.site-container > section {
+  margin: 100px auto;
+}
+
+/* name/ small intro  */
+.splash-content {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+/* container on text and image and use flex box to vertically align  */
+profile-picutre {
+  border-radius: 50%;
+  float: left;
+  margin-right: 50px;
+}
+
+.splash-content h1 {
+  text-transform: lowercase;
+}
+
+.splash-content span {
+  display: block;
+  font-style: italic;
+}
+
+.splash-content strong {
+  color: rgb(154, 55, 44);
+  font-weight: bolder;
+  text-decoration: dotted;
+}
+
+section {
+  margin: 100px auto;
+}
+/* top & bottom, auto adjust  */
+
+
+/* bottom three colums */
+.detail-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.detail-container > section {
+  padding: 25px;
+  background-color: rgb(173, 95, 44);
+
+}
+
+.detail-container > section:last-child {
+  border-right: 0;
+}
