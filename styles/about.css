@@ -1,0 +1,22 @@
+
+#about {
+  display: inline-block;
+  font-size: 2em;
+  margin: 100px auto;
+  text-align: left;
+}
+
+
+#about .details > p {
+  text-align: justify;
+  height: 100%;
+  color: #333;
+  font-family: sans-serif;
+  height: 100%;
+  white-space: normal;
+  position: relative;
+  font-size: 13px;
+  line-height: 21px;
+  min-width: 410px;
+  margin-right: 200px;
+}
