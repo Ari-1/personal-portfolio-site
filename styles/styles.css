@@ -11,6 +11,7 @@ a {
 body {
   font-family: 'Cutive Mono', monospace;
   background-color: whitesmoke;
+  font-weight: lighter;
 }
 
 body .base {
@@ -29,12 +30,14 @@ body .base {
   height: 5vh;
   border-bottom: 2px solid grey;
   font-size: 1.5em;
+  font-weight: lighter;
   top: 0;
   width: 100%;
 }
 
 .header ul {
   display: flex;
+  flex-flow: wrap;
   justify-content: space-around;
   align-items: center;
   color: rgb(114, 97, 119);
@@ -46,7 +49,7 @@ body .base {
 
 /* Profile-------------- ---------*/
 
-.title h1:first-child {
+#title h1:first-child {
   width: 80vw;
   margin: 20% auto;
   font-size: 4em;

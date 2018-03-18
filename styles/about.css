@@ -1,5 +1,5 @@
 
-#about {
+.content-title {
   display: inline-block;
   font-size: 2em;
   margin: 100px auto;
@@ -7,7 +7,7 @@
 }
 
 
-#about .details > p {
+.content-title article > p {
   text-align: justify;
   height: 100%;
   color: #333;
@@ -17,6 +17,6 @@
   position: relative;
   font-size: 13px;
   line-height: 21px;
-  min-width: 410px;
+  max-width: 520px;
   margin-right: 200px;
 }
