@@ -18,6 +18,7 @@ body .base {
   overflow: auto;
   position: relative;
   color: white;
+  font-weight: bolder;
 }
 
 body .base > img {
@@ -68,7 +69,7 @@ body .base > img {
 
 /* Profile-------------- ---------*/
 
-#title h1:first-child {
+#title p:first-child {
   width: 80vw;
   margin: 10% auto;
   font-size: 4em;
@@ -114,56 +115,7 @@ body .base > img {
   }
 }
 
-.splash-content {
+article .splash-content {
   font-size: 1.5em;
-  margin: 30% auto;
-  display: inline-block;
+  margin-top: 35%;
 }
-
-
-/* Dee's quick intro to profile-project */
-
-/* div with nav bar */
-/* .site-container > section {
-  margin: 100px auto;
-} */
-
-/* name/ small intro  */
-/* .splash-content {
-  width: 80vw;
-  margin: 0 auto;
-} */
-
-
-/* .splash-content span {
-  display: block;
-  font-style: italic;
-} */
-
-/* .splash-content strong {
-  color: rgb(154, 55, 44);
-  font-weight: bolder;
-  text-decoration: dotted;
-} */
-
-/* section {
-  margin: 100px auto;
-} */
-/* top & bottom, auto adjust  */
-
-
-/* bottom three colums */
-/* .detail-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-} */
-
-/* .detail-container > section {
-  padding: 25px;
-  background-color: rgb(173, 95, 44);
-
-} */
-
-/* .detail-container > section:last-child {
-  border-right: 0;
-} */
