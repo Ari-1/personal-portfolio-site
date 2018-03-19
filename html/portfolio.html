@@ -1,47 +1,90 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="stylesheet" href="../styles/portfolio.css">
-  </head>
-  <body>
-    <nav class="header">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/portfolio.css">
+</head>
+<body>
+  <nav class="header">
+    <ul>
+      <li>
+        <a href="../html/about.html">About.</a>
+      </li>
+      <li>
+        <a href="../index.html">Ari.</a>
+      </li>
+      <li>
+        <a href="../html/journal.html">Street Art.</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="project-title">
+    <strong>Projects.</strong>
+    <p>
+      A sample of my projects thus far at <a href="https://www.adadevelopersacademy.org/">Ada Developers Academy</a>.
+    </p>
+  </section>
+
+  <article id="container">
+    <img src="../images/rideshare.jpg" alt="Rideshare">
+    <section>
+      <a href="https://github.com/Ari-1/oo-ride-share">RideShare Program</a>
+      <p>
+        In this project, we created a system to track ride share data from a CSV file while using our knowledge of classes, methods and attributes to implement object-oriented design.
+      </p>
+      <strong>Learning Goals:</strong>
       <ul>
-        <li>
-          <a href="../html/about.html">About.</a>
-        </li>
-        <li>
-          <a href="../index.html">Ari.</a>
-        </li>
-        <li>
-          <a href="../html/journal.html">Street Art.</a>
-        </li>
+        <li>Creating and instantiation classes with attributes</li>
+        <li>Creating class methods and instance methods</li>
+        <li>Practice writing pseudocode</li>
+        <li>Create tests to drive the creation of our code</li>
       </ul>
-    </nav>
-    <section class="project-title">
-      <h3>Projects.</h3>
-        <p>A sample of my projects thus far at Ada.</p>
     </section>
 
-    <article id="container">
+    <section>
+      <a href="https://github.com/Ari-1/Scrabble">Scrabble Game</a>
+      <p>
+        Scrabble was our second pair-programming project, where we used test driven development to write tests and code in parallel. Project completed with Brandy Austin.</p>
+          <strong>Learning Goals:</strong>
+          <ul>
+            <li>Utilize TDD (Test Driven Development)</li>
+            <li>Create class methods according to requirements</li>
+            <li>Utilize Single Responsibility Principle to reduce code dependencies</li>
+            <li>Utilize composition between classes</li>
+          </ul>
+      </section>
+      <img src="../images/scrabblewall.jpg" alt="Scrabble">
+
+      <img src="../images/solar-system.jpg" alt="Solar-System">
       <section>
-        <a href="https://github.com/Ari-1/oo-ride-share">RideShare Program</a>
-        <img src="../images/rideshare.jpg" alt="Rideshare">
-        <p>
-          In this project, we created a system to track ride share data from a CSV file while using our knowledge of classes, methods and attributes to implement object-oriented design.
-        </p>
+        <a href="https://github.com/Ari-1/Solar-System">Solar System</a>
+        <p>Solar System, am individual-stage 1 project, uses classes instead of hard-coded data. The user can learn about any planet within the solar system and create new ones.</p>
+
+        <strong>Learning Goals:</strong>
+        <ul>
+          <li>Practice creating custom classes</li>
+          <li>Use a hash to initialize an object</li>
+          <li>Create an object which contains a collection of other objects</li>
+          <li>Practice creating instance methods</li>
+        </ul>
       </section>
       <section>
-        <a href="https://github.com/Ari-1/Scrabble">Scrabble Game</a>
-        <img src="" alt="">
+        <a href="https://github.com/Ari-1/Calculator">Calculator</a>
+        <p>Calculator project was one of our first projects at Ada. An individual-stage 1 project, the program prompts the user for an operation and two numbers.</p>
+        <strong>Learning Goals:</strong>
+        <ul>
+          <li>Practice writing code that has a user interface</li>
+          <li>Utilize conditionals and regular expressions</li>
+          <li>Testing code for incorrect input</li>
+        </ul>
       </section>
-
-
-
+      <img src="../images/calculator.jpeg" alt="Calculate">
 
     </article>
 
   </body>
-</html>
+  </html>

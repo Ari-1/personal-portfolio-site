@@ -1,25 +1,25 @@
-.project-title h3 {
-  display: inline-block;
-  font-size: 2em;
+.project-title {
+  display: flex;
   margin: 100px auto;
-  text-align: left;
+  flex-flow: column wrap;
+}
+
+.project-title strong {
+  font-size: 2em;
 }
 
 #container {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  border-bottom: 1px solid lightgrey;
-  border-top: 1px solid lightgrey;
-
+  grid-template: repeat(4, 1fr) / 1fr 1fr;
+  grid-row-gap: 40px;
+  margin: 20px;
 }
 
-#container section > img {
-  float: left;
-  height: 200px;
-  max-width: 50%;
-  margin-top: 2%;
-  margin-right: 5%;
-
+#container img {
+  align-items: center;
+  height: 300px;
+  width: 500px;
+  border-radius: 2%;
 }
 
 #container section p {
@@ -27,8 +27,23 @@
   font-size: 15px;
 }
 
-#container a {
+#container section ul {
+  font-family: sans-serif;
+  list-style-type: circle;
+  font-size: 15px;
+  font-style: italic;
+  text-align: left;
+}
+
+#container section > a {
+  margin-top: 20px;
   font-size: 1.5em;
-  color: rgb(99, 77, 120);
+  color: rgba(241, 151, 45, 0.96);
   margin-top: 5%;
+
+}
+
+#container section > a:hover {
+  color: rgb(9, 10, 57);
+  text-decoration: underline;
 }
