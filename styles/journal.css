@@ -12,9 +12,24 @@
 .slides {
   display: grid;
   grid-template: repeat(4, 1fr)/ repeat(3, 1fr);
-  flex-flow: wrap;
+  justify-content: center;
 }
-#slides > img {
+
+a span {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(255,255,255,.8);
+  text-align: center;
+}
+
+a:hover span {
+  display: block;
+}
+
+#slides a > img {
   width: 30%;
   height: auto;
   align-items: center;
